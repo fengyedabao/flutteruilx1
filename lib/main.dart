@@ -4,6 +4,7 @@ import 'package:wodedogde/card_demo.dart';
 
 import 'box_demo.dart';
 import 'button_demo.dart';
+import 'check_box_demo.dart';
 import 'dropDownBotton.dart';
 
 void main() {
@@ -97,8 +98,8 @@ class _MyHomePageState extends State<MyHomePage>
               icon: Icon(Icons.card_giftcard),
             ),
             Tab(
-              text: '2',
-              icon: Icon(Icons.lunch_dining),
+              text: '选择控件',
+              icon: Icon(Icons.check_box),
             ),
             Tab(
               text: '3',
@@ -137,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage>
            CardDemo(),
 
 
-          Text('占位2'),
+          CheckBoxDemo(),
 
           Text('站位3'),
           Text('占位4'),
