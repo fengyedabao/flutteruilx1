@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:wodedogde/bottom_native.dart';
-import 'package:wodedogde/card_demo.dart';
 
+
+import 'bottom_native.dart';
 import 'box_demo.dart';
 import 'button_demo.dart';
+import 'card_demo.dart';
 import 'check_box_demo.dart';
+import 'chip_demo.dart';
 import 'dropDownBotton.dart';
 
 void main() {
@@ -102,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage>
               icon: Icon(Icons.check_box),
             ),
             Tab(
-              text: '3',
+              text: 'chip组件',
               icon: Icon(Icons.bolt),
             ),
             Tab(
@@ -140,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage>
 
           CheckBoxDemo(),
 
-          Text('站位3'),
+          ChipDemo(),
           Text('占位4'),
         ],
       ),
